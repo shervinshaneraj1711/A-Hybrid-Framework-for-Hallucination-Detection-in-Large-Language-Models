@@ -1,22 +1,22 @@
-# LLM Hallucination Detection
+ LLM Hallucination Detection
 
-## Overview
+ Overview
 
 This project focuses on detecting hallucinated responses generated
 by Large Language Models using Natural Language Processing techniques.
 
 The project is based on the following 2026 research paper:
 
-**A Hybrid Framework for Hallucination Detection in Large Language Models**
+A Hybrid Framework for Hallucination Detection in Large Language Models**
 
-## Dataset
+Dataset
 
 The project uses the HaluEval Dialogue dataset.
 
 The dataset contains dialogue histories along with factual and
 hallucinated responses.
 
-## Current Progress
+Current Progress
 
 - Dataset loading
 - Dataset inspection
@@ -27,7 +27,7 @@ hallucinated responses.
 - Train/Validation/Test split
 - Initial BERT tokenization
 
-## Methodology
+Methodology
 
 The planned baseline architecture consists of:
 
@@ -38,7 +38,7 @@ HaluEval Dataset
 → Deep Learning Classifier
 → Hallucination Detection
 
-## Future Work
+Future Work
 
 - Transformer-based feature extraction
 - Deep learning classification
